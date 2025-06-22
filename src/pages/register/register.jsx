@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./register.css";
 import logo from "../../assets/logo.png";
 import fundo from "../../assets/fundo.png";
@@ -29,11 +30,11 @@ function Register() {
                 </div>
 
                 <div className="mt-3 mb-5">
-                    <button className="btn btn-primary w-100">Login</button>
+                    <button className="btn btn-primary w-100">Criar minha conta</button>
                 </div>
                 <div>
-                    <span className="me-1">Não tenho uma conta.</span>
-                    <a href="#">Criar agora!</a>
+                    <span className="me-1">Já tenho uma conta.</span>
+                    <Link to="/">Acessar agora!</Link>
                 </div>
             </form>
         </div>

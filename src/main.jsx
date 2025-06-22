@@ -1,11 +1,10 @@
-import "./styles/global.css"
-import { React } from "react"
+import "./styles/global.css";
 import { createRoot } from "react-dom/client"
+import React from "react";
 
-import Login from "./pages/login/login.jsx"
-import Register from "./pages/register/register.jsx"
+import Rotas from "./rotas.jsx";
 
 createRoot(document.getElementById('root')).render(
-   <Register/>
+   <Rotas/>
   
 )

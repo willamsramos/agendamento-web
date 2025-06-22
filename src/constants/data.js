@@ -1,0 +1,201 @@
+export const doctors = [
+  {
+    id_doctor: 1,
+    name: "Dr. Armando Matheus",
+    specialty: "Ginecologia e obstetrícia",
+    icon: "M",
+  },
+  {
+    id_doctor: 2,
+    name: "Dra. Ana Beatriz Rutini",
+    specialty: "Cardiologista",
+    icon: "F",
+  },
+  {
+    id_doctor: 3,
+    name: "Dr. Antônio Almeida Souza",
+    specialty: "Pediatria",
+    icon: "M",
+  },
+  {
+    id_doctor: 4,
+    name: "Dra. Roberta Martins",
+    specialty: "Clínica Geral",
+    icon: "F",
+  },
+  {
+    id_doctor: 5,
+    name: "Dra. Nise da Silveira",
+    specialty: "Psiquiatria",
+    icon: "F",
+  },
+  {
+    id_doctor: 6,
+    name: "Dr. Eduardo Vasconcelos",
+    specialty: "Neurologia",
+    icon: "M",
+  },
+  {
+    id_doctor: 7,
+    name: "Dra. Camila Ferreira",
+    specialty: "Dermatologia",
+    icon: "F",
+  },
+  {
+    id_doctor: 8,
+    name: "Dr. Marcos Paulo Oliveira",
+    specialty: "Ortopedia",
+    icon: "M",
+  },
+  {
+    id_doctor: 9,
+    name: "Dra. Helena Costa",
+    specialty: "Endocrinologia",
+    icon: "F",
+  },
+  
+];
+
+export const appointments = [
+  {
+    id_appointment: 1,
+    service: "Consulta",
+    doctor: "Dr. Armando Matheus",
+    specialty: "Ginecologia e obstetrícia",
+    booking_date: "2024-10-10",
+    booking_hour: "09:00",
+    user: "Larissa Moura",
+    price: 300,
+  },
+  {
+    id_appointment: 2,
+    service: "Consulta",
+    doctor: "Dra. Ana Beatriz Rutini",
+    specialty: "Cardiologista",
+    booking_date: "2024-10-12",
+    booking_hour: "10:30",
+    user: "Carlos Henrique",
+    price: 350,
+  },
+  {
+    id_appointment: 3,
+    service: "Consulta",
+    doctor: "Dr. Antônio Almeida Souza",
+    specialty: "Pediatria",
+    booking_date: "2024-10-28",
+    booking_hour: "15:40",
+    user: "Heber Stein Mazutti",
+    price: 400,
+  },
+  {
+    id_appointment: 4,
+    service: "Consulta",
+    doctor: "Dra. Roberta Martins",
+    specialty: "Clínica Geral",
+    booking_date: "2024-11-02",
+    booking_hour: "10:00",
+    user: "Fernanda Rocha",
+    price: 300,
+  },
+  {
+    id_appointment: 5,
+    service: "Consulta",
+    doctor: "Dra. Nise da Silveira",
+    specialty: "Psiquiatria",
+    booking_date: "2024-10-25",
+    booking_hour: "08:30",
+    user: "Maria Silva",
+    price: 250,
+  },
+  {
+    id_appointment: 6,
+    service: "Consulta",
+    doctor: "Dr. Eduardo Vasconcelos",
+    specialty: "Neurologia",
+    booking_date: "2024-11-05",
+    booking_hour: "14:20",
+    user: "Lucas Almeida",
+    price: 450,
+  },
+  {
+    id_appointment: 7,
+    service: "Consulta",
+    doctor: "Dra. Camila Ferreira",
+    specialty: "Dermatologia",
+    booking_date: "2024-11-07",
+    booking_hour: "09:15",
+    user: "Patrícia Gomes",
+    price: 320,
+  },
+  {
+    id_appointment: 8,
+    service: "Consulta",
+    doctor: "Dr. Marcos Paulo Oliveira",
+    specialty: "Ortopedia",
+    booking_date: "2024-11-10",
+    booking_hour: "13:00",
+    user: "João Pedro Lima",
+    price: 380,
+  },
+  {
+    id_appointment: 9,
+    service: "Consulta",
+    doctor: "Dra. Helena Costa",
+    specialty: "Endocrinologia",
+    booking_date: "2024-11-12",
+    booking_hour: "11:45",
+    user: "Amanda Tavares",
+    price: 360,
+  },
+];
+
+export const doctors_services = [
+  {
+    id_service: 1,
+    description: "Consulta Médica",
+    price: 500,
+  },
+  {
+    id_service: 2,
+    description: "Drenagem Linfática",
+    price: 650,
+  },
+  {
+    id_service: 3,
+    description: "Lipoaspiração",
+    price: 5000,
+  },
+  {
+    id_service: 4,
+    description: "Mamoplastia",
+    price: 1700,
+  },
+  {
+    id_service: 5,
+    description: "Ultrassonografia",
+    price: 300,
+  },
+  {
+    id_service: 6,
+    description: "Exame Cardiológico",
+    price: 450,
+  },
+  {
+    id_service: 7,
+    description: "Consulta Neurológica",
+    price: 700,
+  },
+  {
+    id_service: 8,
+    description: "Peeling Químico",
+    price: 350,
+  },
+  {
+    id_service: 9,
+    description: "Consulta Endocrinológica",
+    price: 550,
+  },
+];
+
+
+
